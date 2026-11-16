@@ -1,30 +1,26 @@
-<!DOCTYPE html>
-<html lang="pl_PL">
-  <head>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com            /css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet"> 
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
-	<!-- DON'T DELETE THIS LINE > Author: Dawid Śmiech www.dawidsmiech.pl < DON'T DELETE THIS LINE-->
-  </head>
-  <body class="background">
-<h1>SOCIAL HUB</h1>
-    <img src="https://www.w3schools.com/howto/img_avatar2.png" alt="Avatar" class="avatar"></br>
-
-<center>
-<a href="#" class="fa fa-facebook"></a>
-<a href="#" class="fa fa-twitter"></a>
-<a href="#" class="fa fa-youtube"></a>
-<a href="#" class="fa fa-linkedin"></a>
-<a href="#" class="fa fa-github"></a>
-<!-- icon list: https://fontawesome.com/v4.7.0/icons/ -->
-</center> 
-
-</br><p class="description">Your description on this page. You can write here your bio.</p>
-
-<!-- DON'T DELETE THIS LINE! --><footer>Web source by: <a href="https://dawidsmiech.pl"> Dawid Śmiech </a></footer><!-- DON'T DELETE THIS LINE! -->
-  </body>
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="SocialHub — prosta strona z najważniejszymi linkami w jednym miejscu.">
+  <meta name="theme-color" content="#f7f8fb">
+  <title>SocialHub — moje linki</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="config.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="container">
+    <section class="profile" aria-labelledby="profile-name">
+      <div id="avatar" class="avatar" aria-hidden="true">SH</div>
+      <h1 id="profile-name">SocialHub</h1>
+      <p id="profile-description" class="description">Wszystkie ważne linki w jednym miejscu.</p>
+      <nav aria-label="Moje linki">
+        <ul id="links" class="links"></ul>
+      </nav>
+    </section>
+  </main>
+  <footer>SocialHub · <a href="https://dawidsmiech.pl" rel="noopener noreferrer">Dawid Śmiech</a></footer>
+</body>
 </html>
-    
-    
